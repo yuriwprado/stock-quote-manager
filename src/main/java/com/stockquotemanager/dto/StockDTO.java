@@ -1,0 +1,15 @@
+package com.stockquotemanager.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class StockDTO {
+	
+	private String id;
+	private String description;
+
+}
